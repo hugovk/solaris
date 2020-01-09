@@ -70,6 +70,7 @@ else:
                  'networkx>=2.4',
                  'numpy>=1.17.3',
                  'opencv-python>=4.1.0.25',
+                 'pillow<7',  # Temporary until torchvision>0.4.2 is released
                  'pandas>=0.25.3',
                  'pyproj>=2.1',
                  'torch==1.3.1',
